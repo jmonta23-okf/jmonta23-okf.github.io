@@ -1,0 +1,78 @@
+---
+title: "Del laboratori a la sala de mestres: un currículum que és una xarxa viva"
+date: 2026-11-10
+draft: false
+tags: ["educació", "OKF", "IA ètica", "currículum"]
+---
+
+*Reflexions d'un professor de Sanitat sobre OKF, els Paquets LLM i el gust de fer les coses amb les mans.*
+
+---
+
+## Un biòleg que va canviar el laboratori per l'aula
+
+Vaig néixer el 1974 i soc biòleg de formació. Fins al 2008 vaig treballar a la indústria farmacèutica, en control microbiològic. Era un món de protocols estrictes: si una cosa no estava escrita, validada i traçable, no existia. Aquell rigor se't queda a la pell. Des del 2008 soc docent de Formació Professional, a la família de Sanitat de l'escola pública, i encara miro el món amb ulls de laboratori.
+
+El 2015, sent interí, em va tocar el mòdul de Codificació Sanitària. Era el «marró» que ningú volia perquè és complex i feixuc. Me'l vaig agafar com un repte, i va ser una de les millors coses que m'han passat a la feina.
+
+Quan treballes amb ontologies i classificacions mèdiques, acabes veient que cap concepte viu sol. Cada terme penja d'un altre, hereta d'un tercer i s'especialitza en un quart. I em va caure la fitxa: **el currículum educatiu és una biologia**, una xarxa viva de conceptes interconnectats.
+
+Tot i això, el gestionem com si fos una cosa morta. Carpetes, documents de Word lineals de 15 o 20 pàgines, dissenyats per complir el tràmit amb la inspecció. Són documents massa esquemàtics: no hi cap la riquesa real de l'aula, les 50 activitats que has dissenyat, les adaptacions o el context del teu centre. Així, acabes amb la programació oficial per una banda, i un calaix de sastre de fitxers al Drive per l'altra. D'aquí va néixer la idea d'OKF (*Open Knowledge Format*, o *Organized Knowledge Framework*, segons el dia): portar el currículum a un graf de text pla, en Markdown, on cada node és un fitxer que es pot llegir, enllaçar i versionar.
+
+## El bany de realitat i el factor Montse
+
+L'agost de 2026 vaig muntar el graf del cicle TCAI i vaig començar a operar-lo amb IA. Feia bateries de *prompts*, les anava polint i les passava a la Montse, la meva co-docent del torn de tarda.
+
+I la Montse es perdia. S'atabalava, i era perfectament normal. Jo li passava una enginyeria que tenia sentit al meu cap, i ella només volia preparar una bona classe. Aquell dia vaig entendre que la meva estratègia fallava. No podia exigir a una companya que tingués el meu perfil tecnològic, ni era just que ho fes.
+
+Per això vaig inventar el **Paquet LLM**: un fitxer autosostingut que encapsula les instruccions perquè qualsevol docent pugui treballar amb la IA sense haver de dominar res del que hi ha al darrere.
+
+El Paquet LLM és una recepta oberta, escrita en text pla. La Montse el pot llegir de dalt a baix, entendre què fa la IA a cada pas i canviar-lo. Si una línia no li va bé, la retalla; si li falta alguna cosa, n'hi afegeix una. No hi ha res amagat. Ella és la veritable usuària real del sistema, i el fa servir perquè funciona. Ens permet anar harmonitzats al matí i a la tarda sense que l'enginyeria l'atabali.
+
+## Dues maneres de començar (i per què no cal patir pels YAML)
+
+Una crítica que rebo sovint és que el docent mitjà no té un perfil tan tècnic com el meu i que es perdrà en els fitxers YAML. És una crítica raonable, però parteix d'una premissa falsa: **que el docent ha de tocar els YAML a mà**.
+
+No és el cas. Cap docent no escriurà mai un YAML des de zero. Tots ho faran assistits per una IA. El kit no pretén que els docents es converteixin en programadors, sinó que **entenguin l'estructura del coneixement curricular** i tinguin les competències bàsiques per guiar una IA en la construcció del seu vault.
+
+Amb el temps, he après que hi ha **dues portes d'entrada** al kit, i totes dues són igual de vàlides:
+
+- **Paquet 00 (enfocament deductiu):** parteix del currículum oficial i baixa cap a la pràctica. Útil per a mòduls nous o per a docents que volen repensar la programació des de zero.
+- **Paquet 01 (enfocament inductiu):** parteix de la programació existent del docent i puja cap al currículum. Útil per a docents que ja tenen una programació feta i no volen reescriure-la.
+
+Tots dos camins porten al mateix lloc: un vault OKF validat. La diferència és el punt de partida i el grau de formalitat del resultat. El camí inductiu preserva la feina existent; el deductiu produeix un graf formalment més perfecte.
+
+La lentitud del diàleg amb la IA no és un inconvenient: és el propòsit. Cada cop que el docent copia un YAML i el desa, aprèn què és un `id`, què és un `type`, per què hi ha camps universals. I si no ho entén, pot preguntar a la IA, que li explicarà. És un diàleg a dos.
+
+## Artesania entre amics
+
+Fora del meu institut també faig proves, però no amb una «cartera de clients». Les faig amb gent de confiança, i les fem amb calma, entre hores o sopant un divendres a la nit. Ho dic sense embuts: l'adopció real d'una eina demana temps i motivació, i no es mesura en clics ràpids.
+
+Pel Benet, un amic novell a la docència, vaig construir un mòdul sencer de Química. És una matèria que jo no domino, i justament per això ho vaig fer: per comprovar que el graf aguanta fora de la meva zona de confort. Funciona perquè l'estructura no depèn de qui l'omple.
+
+I demà vaig a sopar a casa l'Ariadna. Ens mirarem amb calma com el graf pot ajudar-la a estructurar bancs d'estratègies i models d'adaptació per a Plans Individuals —sempre a escala de disseny pedagògic, sense noms ni historials d'alumnes—. Es tracta d'una feina delicada, plena de matisos i de persones concretes, on una xarxa de coneixement ben lligada pot treure molta feina de sobre.
+
+Potser algun dia caldrà una acreditació de competència OKF per garantir una adopció sòlida. Però avui som a la trinxera, entre companys, i això ja em sembla molt.
+
+## La sobreenginyeria, o com em vaig passar de frenada
+
+Ho confesso: el meu graf de TCAI i SAD pateix de sobreenginyeria. M'hi he obsessionat, i tinc la tendència (la conec de fa anys) de voler perfeccionar fins que el sistema pesa més que la feina que ha d'ajudar a fer. Si un node pot tenir tres relacions, jo li en poso set.
+
+L'**OKF Starter Kit** neix d'aquesta autocrítica. És una neteja: ho he reduït tot a la mínima expressió, a l'os que aguanta el sistema. Si un docent vol afegir-hi coses, les afegirà ell, a mida. Millor un esquelet net que una armadura que no hi ha qui carregui.
+
+El Kit incorpora, a més, dos marcs ètics que em semblen urgents:
+
+- El marc **MIAE**, de Juanjo de Haro, que posa la supervisió humana de la IA al centre (amb el docent al Nivell 3, com a decisor crític). La màquina proposa, però el docent decideix, sempre.
+- El **VCER** (*Vibe Coding Educatiu Responsable*), formulat també per ell, que ens recorda que crear amb IA a l'aula demana criteri ètic i tècnic (materials 100% offline, sense rastreig de dades d'alumnes i amb llicència lliure), i que aquest criteri mai es delega.
+
+I una norma de sentit comú que ens posem: **dades personals de l'alumnat, ni al graf ni als prompts.**
+
+## La crida a la tribu
+
+Allibero l'OKF Starter Kit a GitHub perquè vull compartir, fer sinergies i avançar conjuntament. Fer prova i error sol té un límit: cada docent que descobreix pel seu compte el que un altre ja ha descobert perd un temps que no li sobra. Si ens passem els trucs, les receptes i els errors, tots ens estalviem camí.
+
+M'agradaria molt, algun dia, teixir col·laboracions amb referents com Juanjo de Haro, de qui aprenc cada vegada que el llegeixo. Però abans que això, el que vull és trobar companys d'ofici que vulguin seure al «taller» de GitHub, obrir un fitxer de text, llegir-lo, trencar-lo i tornar-lo a muntar millor.
+
+Perquè d'això es tracta: de recuperar la dignitat artesanal de la nostra feina. No és ni la plataforma ni el producte. És el docent que entén la seva eina, la modifica amb les mans i la fa seva.
+
+Si us sona bé, el taller és obert. Porteu el cafè.

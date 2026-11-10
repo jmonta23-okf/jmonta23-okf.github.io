@@ -1,5 +1,6 @@
 baseURL = "https://jmonta23-okf.github.io/"
-languageCode = "ca"
+defaultContentLanguage = "ca"
+locale = "ca-ES"
 title = "El laboratori del coneixement"
 theme = "PaperMod"
 enableInlineShortcodes = true

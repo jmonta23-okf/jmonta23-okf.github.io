@@ -25,7 +25,7 @@ L'agost de 2026 vaig muntar el graf del cicle TCAI i vaig començar a operar-lo 
 
 I la Montse es perdia. S'atabalava, i era perfectament normal. Jo li passava una enginyeria que tenia sentit al meu cap, i ella només volia preparar una bona classe. Aquell dia vaig entendre que la meva estratègia fallava. No podia exigir a una companya que tingués el meu perfil tecnològic, ni era just que ho fes.
 
-Per això vaig inventar el **Paquet LLM**: un fitxer autosostingut que encapsula les instruccions perquè qualsevol docent pugui treballar amb la IA sense haver de dominar res del que hi ha al darrere.
+Per això vaig inventar el **Paquet LLM**: un fitxer autosuficient que encapsula les instruccions perquè qualsevol docent pugui treballar amb la IA sense haver de dominar res del que hi ha al darrere.
 
 El Paquet LLM és una recepta oberta, escrita en text pla. La Montse el pot llegir de dalt a baix, entendre què fa la IA a cada pas i canviar-lo. Si una línia no li va bé, la retalla; si li falta alguna cosa, n'hi afegeix una. No hi ha res amagat. Ella és la veritable usuària real del sistema, i el fa servir perquè funciona. Ens permet anar harmonitzats al matí i a la tarda sense que l'enginyeria l'atabali.
 
